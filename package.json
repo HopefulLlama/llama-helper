@@ -1,10 +1,11 @@
 {
   "name": "llama-helper",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Utility functions to help out the Llama ecosystem",
   "main": "src/llama-helper.js",
   "scripts": {
-    "test": "gulp"
+    "test": "gulp",
+    "release": "node ./node_modules/llama-rlsr/src/llama-rlsr.js llama-rlsr.config.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,9 @@
     "gulp-jasmine": "^2.4.2",
     "gulp-jshint": "^2.0.4",
     "gulp-sequence": "^0.4.6",
-    "jshint": "^2.9.5"
+    "jshint": "^2.9.5",
+    "llama-rlsr": "0.0.4",
+    "llama-rlsr-keep-a-changelog": "0.0.4",
+    "llama-rlsr-npm": "0.0.2"
   }
 }
