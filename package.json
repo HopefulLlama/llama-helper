@@ -1,0 +1,33 @@
+{
+  "name": "llama-helper",
+  "version": "0.0.0",
+  "description": "Utility functions to help out the Llama ecosystem",
+  "main": "src/llama-helper.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HopefulLlama/llama-helper.git"
+  },
+  "keywords": [
+    "npm",
+    "release-automation",
+    "release",
+    "nodejs"
+  ],
+  "author": "jonlaw10170@gmail.com",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/HopefulLlama/llama-helper/issues"
+  },
+  "homepage": "https://github.com/HopefulLlama/llama-helper#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^2.4.2",
+    "gulp-jshint": "^2.0.4",
+    "gulp-sequence": "^0.4.6",
+    "jshint": "^2.9.5"
+  }
+}
